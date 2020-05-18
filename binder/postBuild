@@ -10,5 +10,4 @@ jupyter labextension install nglview-js-widgets
 printf "[DEFAULT]\nTOP_LEVEL_DIRS = ${HOME}\nRESOURCE_PATHS = ${HOME}/resources" > ${HOME}/.pyiron
 git clone https://github.com/pyiron/pyiron-resources.git ${HOME}/resources
 
-conda install -c conda-forge numpy 
-pip install --pre pyiron
+pip install pyiron==0.2.14.post0.dev130

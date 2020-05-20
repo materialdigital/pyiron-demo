@@ -1,9 +1,0 @@
-channels:
-- conda-forge
-dependencies:
-- pyiron      # simulation framework 
-- sphinxdft   # DFT simulation code 
-- lammps      # MD simulation code 
-- temmeta     # TEM image post processing 
-- nglview     # visualisation of atomistic structures
-- voila       # gui based on jupyter widgets 
